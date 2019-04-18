@@ -25,3 +25,14 @@ git remote add RSHA https://github.com/kasutaja/reponimi.git
 b) git remote kontroll
 git remove -v
 
+põhikasutamine:
+
+a) pane fail jälgimisele:
+git add failinimi
+
+b) lisa kirjelduse muudatuse kohta
+git commin -m "lühirjeldus"
+
+c) lisa kaugreposse
+git push -uf RSHA master
+
